@@ -50,7 +50,7 @@ The core server will start up last. The game is ready to connect and play when y
 scramble-game-1       | Server is running on :8080
 ```
 
-The user-ready app can be accessed at http://localhost:3000 (Yes, you read that correctly. The core server runs at port 8080, but the frontend is running at port 3000)
+The user-ready app can be accessed at http://localhost:3000 
 
 NOTE: The game will not run if you try to access it using HTTPS. Any individual match will not work if you quit and re-open the browser running the game, but will work if a user reloads their respective game.  
 
@@ -68,7 +68,7 @@ Clicking "Join Game" will prompt you for a username and a game session ID. Input
 
 #### Playing The Game
 
-Playing the game uses normal *Scrabble* rules. The person who initially created the game by clicking "New Game" will always go first. This means that the traditional method of picking a random letter (with the person with the letter closest to "A" winning) will not work, and instead you should decide the method of deciding who should go first. We reccommend flipping a coin or playing rock-paper-scissors. Players will take turns back and forth playing words until the tile bag is empty, and one of the two players runs out of tiles. 
+Playing the game uses normal *Scrabble* rules. The person who initially created the game by clicking "New Game" will always go first. This means that the traditional method of picking a random letter (with the person with the letter closest to "A" winning) will not work, and instead you should decide the method of deciding who should go first. We recommend flipping a coin or playing rock-paper-scissors. Players will take turns back and forth playing words until the tile bag is empty, and one of the two players runs out of tiles. 
 
 There are a few core features one can use during a game:
 - **Refresh**: remove all the tiles from your hand. Get a new set of tiles. 
@@ -102,15 +102,3 @@ As opposed to traditional *Scrabble*, when the game ends, the player that still 
 
 ### Languages 
 - Go
-
-## Credits
-
-### Work Distribution:
-- Frontend: Artem Yushko & John Win
-- Backend: Sunny Kim & Roo Case
-
-### Additional Support & Resources
-- Nat Case, for beta testing (long-term skilled *Scrabble* player)
-- Matt Lepinski, for general support and resourcefulness throughout the process
-- Fast Ntense for small feature addition
-
